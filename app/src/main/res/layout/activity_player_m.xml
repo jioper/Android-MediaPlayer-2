@@ -84,5 +84,16 @@
                 android:text="0:00"
                 android:textSize="30dp" />
         </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        <Button
+            android:id="@+id/PlayButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:background="@color/colorbackground"
+            android:drawableLeft="@drawable/play" />
+        </GridLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
