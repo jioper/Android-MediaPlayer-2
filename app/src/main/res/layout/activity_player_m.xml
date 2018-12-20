@@ -36,5 +36,25 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             tools:layout_editor_absoluteY="127dp" />
+        <TextView
+            android:id="@+id/AlbumOfSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Artist Of Song"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="127dp" />
+        <ImageView
+            android:id="@+id/SongArt"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteY="215dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
