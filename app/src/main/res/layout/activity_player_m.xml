@@ -67,6 +67,22 @@
             android:gravity="center"
             android:text="0:00"
             android:textSize="30dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:text="OF"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/TotalTime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:text="0:00"
+                android:textSize="30dp" />
         </GridLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
