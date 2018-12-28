@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".MediaPlayerService"/>
+        <activity android:name=".PlayerMActivity"
+            android:parentActivityName=".MainActivity"
+            ></activity>
     </application>
 
 </manifest>
